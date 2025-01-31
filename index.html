@@ -9,9 +9,9 @@
   <body>
     <div class="container">
       <img src="./assets/profile-pic.jpg" alt="profile" class="profile-pic" />
-      <h1>Pleasant Chukwuderah</h1>
-      <p class="jobTitle">Frontend Developer</p>
-      <p class="bio">
+      <h1 data-testid="fullName">Pleasant Chukwuderah</h1>
+      <p class="jobTitle" data-testid="jobTitle">Frontend Developer</p>
+      <p class="bio" data-testid="shortBio">
         Motivated and detail-oriented web developer with two years of training
         in web development. Skilled in HTML, CSS, JavaScript, Tailwind, and
         SASS, with hands-on experience building responsive and visually
@@ -47,7 +47,7 @@
             ></circle>
           </g>
         </svg>
-        <span>Lagos, Nigeria</span>
+        <span data-testid="currentLocation">Lagos, Nigeria</span>
       </div>
       <div class="stuff">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,10 +67,21 @@
             ></path>
           </g>
         </svg>
-        <a href="https://pleasantchukwu@gmail.com" target="_blank" rel="noopener noreferrer">pleasantchukwu@gmail.com</a>
+        <a
+          href="https://pleasantchukwu@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="emailAddress"
+          >pleasantchukwu@gmail.com</a
+        >
       </div>
-      <div class="socials">
-        <a href="https://x.com/Pleasant_Dev?t=06ZXK_x6jmgWBbjedAKWXA&s=08" target="_blank" rel="noopener noreferrer">
+      <div class="socials" data-testid="socialLinks">
+        <a
+          href="https://x.com/Pleasant_Dev?t=06ZXK_x6jmgWBbjedAKWXA&s=08"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="socialLinks"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -84,7 +95,12 @@
             ></path>
           </svg>
         </a>
-        <a href="https://github.com/Chukwuderah" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/Chukwuderah"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="socialLinks"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -98,7 +114,7 @@
             ></path>
           </svg>
         </a>
-        <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+        <!-- <a href="#" target="_blank" rel="noopener noreferrer" data-testid="socialLinks">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -112,7 +128,12 @@
             ></path>
           </svg>
         </a> -->
-        <a href="https://www.linkedin.com/in/pleasant-chukwuderah-327149183" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/in/pleasant-chukwuderah-327149183"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="socialLinks"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
