@@ -95,7 +95,7 @@ div#time {
   text-align: center;
 }
 
-@media (max-width: 720px) and (min-width: 665px) {
+@media (max-width: 720px) and (min-width: 600px) {
   h1 {
     font-size: 1.8rem;
   }
