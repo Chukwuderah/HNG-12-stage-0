@@ -32,6 +32,7 @@ div.container {
 }
 
 .profile-pic {
+  object-fit: cover;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -101,14 +102,14 @@ div#time {
 }
 
 @media (max-width: 600px) {
-    body {
-        padding: 0;
-        align-items: flex-start;
-    }
+  body {
+    padding: 0;
+    align-items: flex-start;
+  }
 
-    div.container {
-        padding: 25px 15px;
-        border-radius: 0;
-        min-height: 100vh;
-    }
+  div.container {
+    padding: 25px 12px;
+    border-radius: 0;
+    min-height: 100vh;
+  }
 }
