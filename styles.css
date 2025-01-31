@@ -35,10 +35,12 @@ div.container {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-bottom: 30px;
 }
 
 h1 {
   font-size: 2rem;
+  padding-bottom: 10px;
 }
 
 p.jobTitle {
@@ -102,11 +104,11 @@ div#time {
     body {
         padding: 0;
         align-items: flex-start;
-        height: 100vh;
     }
 
     div.container {
         padding: 25px 15px;
         border-radius: 0;
+        height: 100vh;
     }
 }
