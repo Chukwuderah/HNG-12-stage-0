@@ -95,9 +95,13 @@ div#time {
   text-align: center;
 }
 
-@media (max-width: 720px) and (min-width: 600px) {
+@media (max-width: 720px) {
   h1 {
     font-size: 1.8rem;
+  }
+
+  div.container {
+    padding: 25px 12px;
   }
 }
 
@@ -108,7 +112,6 @@ div#time {
   }
 
   div.container {
-    padding: 25px 12px;
     border-radius: 0;
     min-height: 100vh;
   }
