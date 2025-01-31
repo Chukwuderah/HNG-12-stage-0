@@ -111,4 +111,8 @@ div#time {
         border-radius: 0;
         height: 100vh;
     }
+
+    .profile-pic {
+        width: 220px;
+    }
 }
